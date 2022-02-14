@@ -1,0 +1,99 @@
+@media (max-width: 1240px) {
+  .container {
+    max-width: 1200px; }
+
+  .header__brands-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    justify-items: center; }
+
+  .header__brand-item {
+    border: 0; } }
+@media (max-width: 1000px) {
+  .catalog__list {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    gap: 30px;
+    text-align: center; }
+
+  .catalog__cards {
+    grid-template-columns: 45% 45%;
+    justify-content: center; }
+
+  .footer__inner {
+    grid-template-columns: 45% 45%;
+    gap: 30px; }
+
+  .header__inner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background: rgba(51, 51, 51, 0.9);
+    z-index: 10; }
+
+  .hamburger {
+    display: block; }
+
+  .header__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    color: var(--white);
+    transform: translateY(-100%);
+    transition: transform 0.5s;
+    overflow: hidden; }
+
+  .header__item + .header__item {
+    margin: 0; }
+
+  .mailing__content {
+    flex-direction: column;
+    align-items: normal;
+    text-align: center;
+    padding-bottom: 30px; }
+
+  .mailing__list {
+    margin-bottom: 30px; }
+
+  .mailing__label {
+    flex-direction: column;
+    min-width: 0; }
+
+  .mailing__input {
+    margin-bottom: 30px; }
+
+  .footer__inner {
+    grid-template-columns: 100%;
+    gap: 30px; } }
+@media (max-width: 520px) {
+  .header__brands-cards {
+    display: none; }
+
+  .catalog__list {
+    grid-template-columns: 50% 50%;
+    gap: 0; }
+
+  .catalog__cards {
+    grid-template-columns: 100%; }
+
+  .blog__cards {
+    grid-template-columns: 100%;
+    gap: 30px; }
+
+  .gallery_cards-reverse {
+    display: none; }
+
+  .footer__design {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center; } }
+
+/*# sourceMappingURL=media.css.map */
